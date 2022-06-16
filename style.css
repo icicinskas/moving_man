@@ -1,0 +1,53 @@
+body {
+  background: rgb(198, 235, 198);
+}
+
+main {
+  width: fit-content;
+  margin: 50px auto;
+}
+
+.top,
+.buttom {
+  display: flex;
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: lightgrey;
+  box-shadow: 0 0 3px grey;
+  font-size: 1.5em;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+.top div:first-of-type {
+  background: rgb(233, 235, 232);
+}
+
+button {
+  background: lightgreen;
+  cursor: pointer;
+  width: 180px;
+  height: 80px;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+i {
+  font-size: 3em;
+}
+
+img {
+  width: 80px;
+  background: transparent;
+  color: transparent;
+}
